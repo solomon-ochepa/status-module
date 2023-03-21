@@ -2,18 +2,19 @@
     "name": "solomon-ochepa/status-module",
     "type": "laravel-module",
     "description": "Statuses - Laravel module.",
-    "keywords": [
-        "status-module",
-        "laravel-module",
-        "solomon-ochepa",
-        "oki technologies ltd"
-    ],
     "authors": [
         {
             "name": "Solomon Ochepa",
             "email": "solomon-ochepa@gmail.com"
         }
     ],
+    "keywords": [
+        "status-module",
+        "laravel-module",
+        "solomon-ochepa",
+        "oki technologies ltd"
+    ],
+    "license": "MIT",
     "require": {
         "nwidart/laravel-modules": "^10.0",
         "joshbrw/laravel-module-installer": "*"
