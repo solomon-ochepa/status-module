@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "joshbrw/laravel-module-installer": "any"
+        "nwidart/laravel-modules": "^10.0",
+        "joshbrw/laravel-module-installer": "*"
     },
     "extra": {
         "laravel": {
