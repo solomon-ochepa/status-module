@@ -1,0 +1,31 @@
+{
+    "name": "solomon-ochepa/status-module",
+    "type": "laravel-module",
+    "description": "Statuses - Laravel module.",
+    "keywords": [
+        "status-module",
+        "laravel-module",
+        "solomon-ochepa",
+        "oki technologies ltd"
+    ],
+    "authors": [
+        {
+            "name": "Solomon Ochepa",
+            "email": "solomon-ochepa@gmail.com"
+        }
+    ],
+    "require": {
+        "joshbrw/laravel-module-installer": "any"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Status\\": ""
+        }
+    }
+}
