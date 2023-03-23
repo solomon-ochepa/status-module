@@ -5,6 +5,7 @@ namespace Modules\Status\app\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Modules\Status\app\Models\Status;
 
 class StatusController extends Controller
 {
@@ -38,20 +39,20 @@ class StatusController extends Controller
 
     /**
      * Show the specified resource.
-     * @param int $id
+     * @param Status $status
      * @return Renderable
      */
-    public function show($id)
+    public function show(Status $status)
     {
         return view('status::show');
     }
 
     /**
      * Show the form for editing the specified resource.
-     * @param int $id
+     * @param Status $status
      * @return Renderable
      */
-    public function edit($id)
+    public function edit(Status $status)
     {
         return view('status::edit');
     }
@@ -59,20 +60,20 @@ class StatusController extends Controller
     /**
      * Update the specified resource in storage.
      * @param Request $request
-     * @param int $id
+     * @param Status $status
      * @return Renderable
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Status $status)
     {
         //
     }
 
     /**
      * Remove the specified resource from storage.
-     * @param int $id
+     * @param Status $status
      * @return Renderable
      */
-    public function destroy($id)
+    public function destroy(Status $status)
     {
         //
     }
