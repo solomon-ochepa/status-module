@@ -3,7 +3,6 @@
 namespace Modules\Status\database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model;
 
 class StatusDatabaseSeeder extends Seeder
 {
@@ -14,8 +13,6 @@ class StatusDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Model::unguard();
-
-        // $this->call("OthersTableSeeder");
+        $this->call([StatusSeeder::class]);
     }
 }
